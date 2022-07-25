@@ -36,6 +36,12 @@ p {
   width: 800px;
 }
 
+.container1 {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header {
   width: 100%;
   height: 50px;
@@ -45,20 +51,36 @@ p {
   width: 20%;
   height: 400px;
   background: cornflowerblue;
-  /* float: left; */
-  display: inline-block;
+  float: left;
+  /* display: inline-block; */
 }
 .right {
   width: 80%;
-  height: 400px;
+  height: 200px;
   background: coral;
-  display: inline-block;
+  float: left;
 
-  /* float: left; */
+  /* display: inline-block; */
+
+  float: left;
 }
 .footer {
   width: 100%;
   height: 100px;
   background-color: grey;
-  /* clear: both; */
+  clear: both;
+}
+
+.leftbox1 {
+  width: 60%;
+  height: 100px;
+  /* background-color: blueviolet; */
+  float: left;
+}
+
+.rightbox1 {
+  width: 40%;
+  height: 100px;
+  background-color: rgb(12, 73, 240);
+  float: left;
 }
